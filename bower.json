@@ -1,6 +1,7 @@
 {
   "name": "seed-element",
   "version": "0.0.0",
+  "keywords": "seed, polymer, web-components",
   "dependencies": {
     "polymer": "Polymer/polymer#master"
   }
