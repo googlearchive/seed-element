@@ -1,5 +1,5 @@
 {
-  "name": "untitled-element",
+  "name": "seed-element",
   "private": true,
   "dependencies": {
     "polymer": "Polymer/polymer#master"
