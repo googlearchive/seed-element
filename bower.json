@@ -5,6 +5,6 @@
   "main": "seed-element.html",
   "homepage": "https://github.com/PolymerLabs/seed-element/",  
   "dependencies": {
-    "polymer": "Polymer/polymer#master"
+    "polymer": "Polymer/polymer#~0.2.4"
   }
 }
