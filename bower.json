@@ -1,6 +1,6 @@
 {
   "name": "seed-element",
-  "private": true,
+  "version": "0.0.0",
   "dependencies": {
     "polymer": "Polymer/polymer#master"
   }
