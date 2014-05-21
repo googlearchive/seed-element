@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "authors": ["Anonymous <anonymous@example.com>"],
   "description": "Element providing solution to no problem in particular.",
-  "keywords": "untitled, polymer, web-components",
+  "keywords": "seed, polymer, web-components",
   "main": "seed-element.html",
   "license": "MIT",
-  "homepage": "https://github.com/anonymous/seed-element/",
+  "homepage": "https://github.com/<USERNAME>/seed-element/",
   "ignore": [
     "**/.*"
   ],
