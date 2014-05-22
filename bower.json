@@ -1,7 +1,9 @@
 {
   "name": "seed-element",
   "version": "0.0.0",
-  "authors": ["Anonymous <anonymous@example.com>"],
+  "authors": [
+    "Anonymous <anonymous@example.com>"
+  ],
   "description": "Element providing solution to no problem in particular.",
   "keywords": "seed, polymer, web-components",
   "main": "seed-element.html",
@@ -11,6 +13,8 @@
     "**/.*"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#~0.2.4"
+    "polymer": "Polymer/polymer#~0.2.4",
+    "chai": "~1.9.1",
+    "mocha": "~1.19.0"
   }
 }
