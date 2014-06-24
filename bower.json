@@ -13,7 +13,7 @@
     "**/.*"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#~0.2.4",
+    "polymer": "Polymer/polymer#~0.3.3",
     "chai": "~1.9.1",
     "mocha": "~1.19.0"
   }
