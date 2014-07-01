@@ -5,8 +5,8 @@
   <title>seed-element</title>
 
   <script src="../../platform/platform.js"></script>
-  <link rel="import" href="tools/tools.html">
-  <script src="tools/htmltest.js"></script>
+  <link rel="import" href="../../polymer-test-tools/tools.html">
+  <script src="../../polymer-test-tools/htmltest.js"></script>
   
   <!-- Step 1: import the element to test -->
   <link rel="import" href="../seed-element.html">
@@ -25,9 +25,9 @@
 
       // Test a method
       var hello = myEl.sayHello();
-      assert.equal(hello, 'My element says, Hello World!');
+      assert.equal(hello, 'seed-element says, Hello World!');
       var greetings = myEl.sayHello('greetings Earthlings');
-      assert.equal(greetings, 'My element says, greetings Earthlings');
+      assert.equal(greetings, 'seed-element says, greetings Earthlings');
 
       // Test an event
       myEl.addEventListener('seed-element-lasers-success', function(event) {
