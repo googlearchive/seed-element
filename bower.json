@@ -14,7 +14,6 @@
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#~0.3.3",
-    "chai": "~1.9.1",
-    "mocha": "~1.19.0"
+    "polymer-test-tools": "Polymer/polymer-test-tools#~0.3.3"
   }
 }
