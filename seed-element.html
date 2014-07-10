@@ -31,6 +31,7 @@ Element providing solution to no problem in particular.
        * 
        * @attribute author
        * @type string
+       * @default 'Dimitri Glazkov'
        */
       author: 'Dimitri Glazkov',
       
@@ -39,6 +40,7 @@ Element providing solution to no problem in particular.
        * 
        * @property fancy
        * @type bool
+       * @default false
        */
       fancy: false,
 
@@ -49,11 +51,11 @@ Element providing solution to no problem in particular.
       },
 
       /**
-       * The `sayHello` method will return a greeting
+       * The `sayHello` method will return a greeting.
        * 
        * @method sayHello
+       * @param {String} greeting Pass in a specific greeting.
        * @return {String} Returns a string greeting.
-       * @param {String} greeting Pass in a specific greeting
        */
       sayHello: function(greeting) {
         var response = greeting || 'Hello World!';
@@ -65,6 +67,8 @@ Element providing solution to no problem in particular.
        * call fireLasers.
        * 
        * @event seed-element-lasers-success
+       * @param {Object} detail
+       *   @param {string} detail.sound An amazing sound.
        */
 
       /**
