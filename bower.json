@@ -4,7 +4,7 @@
   "authors": [
     "Anonymous <anonymous@example.com>"
   ],
-  "description": "Element providing solution to no problem in particular.",
+  "description": "An element providing a solution to no problem in particular.",
   "keywords": [
     "web-component",
     "web-components",
@@ -16,12 +16,13 @@
   "homepage": "https://github.com/<USERNAME>/seed-element/",
   "ignore": [
     "/.*",
-    "/tests/"
+    "/tests/",
+    "/demo/",
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^0.5.4"
+    "polymer": "Polymer/polymer#0.8-preview"
   },
   "devDependencies": {
-    "web-component-tester": "Polymer/web-component-tester#^2.2.3"
+    "web-component-tester": "*"
   }
 }
