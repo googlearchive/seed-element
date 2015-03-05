@@ -12,8 +12,8 @@
   ],
   "main": "seed-element.html",
   "repository": {
-    type: "git",
-    url: "git://github.com/<USERNAME>/seed-element"
+    "type": "git",
+    "url": "git://github.com/<USERNAME>/seed-element"
   },
   "license": "MIT",
   "homepage": "https://github.com/<USERNAME>/seed-element/",
