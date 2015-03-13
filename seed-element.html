@@ -65,25 +65,28 @@ Example:
        *
        * @type {{name: string, image: string}}
        */
-      author: Object,
+      author: {
+        type: Object,
+        // Use `value` to provides a default value for a property, by setting it
+        // on your element's prototype.
+        //
+        // If you provide a function, as we do here, Polymer will call that
+        // _per element instance_.
+        //
+        // We do that to ensure that each element gets its own copy of the
+        // value, rather than having it shared across all instances (via the
+        // prototype).
+        value: function() {
+          return {
+            name:  'Dimitri Glazkov',
+            image: 'http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg',
+          };
+        }
+      },
 
     },
 
     // Element Lifecycle
-
-    configure: function() {
-      // `configure` is the hook to set up any initial state for the element. It
-      // is called top-down: this element's children are NOT yet initialized.
-      // See https://github.com/Polymer/polymer/blob/0.8-preview/PRIMER.md#configure-method
-      //
-      // Return your element's default values here.
-      return {
-        author: {
-          name:  'Dimitri Glazkov',
-          image: 'http://addyosmani.com/blog/wp-content/uploads/2013/04/unicorn.jpg',
-        },
-      };
-    },
 
     ready: function() {
       // `ready` is called after all elements have been configured, but
@@ -92,6 +95,22 @@ Example:
       //
       // This is the point where you should make modifications to the DOM (when
       // necessary), or kick off any processes the element wants to perform.
+    },
+
+    attached: function() {
+      // `attached` fires once the element and its parents have been inserted
+      // into a document.
+      //
+      // This is a good place to perform any work related to your element's
+      // visual state or active behavior (measuring sizes, beginning animations,
+      // loading resources, etc).
+    },
+
+    detached: function() {
+      // The analog to `attached`, `detached` fires when the element has been
+      // removed from a document.
+      //
+      // Use this to clean up anything you did in `attached`.
     },
 
     // Element Behavior
