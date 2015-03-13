@@ -1,7 +1,6 @@
-seed-element
-============
+# seed-element
 
-See the [component page](http://polymerlabs.github.io/seed-element) for more information.
+An element providing a solution to no problem in particular.
 
 ## Getting Started
 
