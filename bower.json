@@ -16,7 +16,7 @@
   "homepage": "https://github.com/<USERNAME>/seed-element/",
   "ignore": [
     "/.*",
-    "/tests/",
+    "/test/",
     "/demo/",
   ],
   "dependencies": {
