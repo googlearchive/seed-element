@@ -1,6 +1,6 @@
 # seed-element
 
-An element providing a solution to no problem in particular.
+An element providing a starting point for your own reusable Polymer elements.
 
 ## Getting Started
 
