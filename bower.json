@@ -20,9 +20,10 @@
     "/demo/"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#0.8-preview"
+    "polymer": "Polymer/polymer#v0.8.0-rc.6"
   },
   "devDependencies": {
+    "iron-doc-viewer": "PolymerElements/iron-doc-viewer#^0.8.0",
     "web-component-tester": "*"
   }
 }
