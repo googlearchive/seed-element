@@ -23,7 +23,7 @@
     "polymer": "Polymer/polymer#v0.8.0-rc.6"
   },
   "devDependencies": {
-    "iron-doc-viewer": "PolymerElements/iron-doc-viewer#^0.8.0",
+    "iron-doc-viewer": "PolymerElements/iron-doc-viewer#^0.8.6",
     "web-component-tester": "*"
   }
 }
