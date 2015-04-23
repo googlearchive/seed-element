@@ -8,6 +8,18 @@ An element providing a starting point for your own reusable Polymer elements.
 We've put together a [guide to seed-element](http://www.polymer-project.org/docs/start/reusableelements.html) to help get you rolling.
 
 
+## Dependencies
+
+Element dependencies are managed via [Bower](http://bower.io/). You can
+install that via:
+
+    npm install -g bower
+    
+Then, go ahead and download the element's dependencies:
+
+    bower install
+    
+
 ## Playing With Your Element
 
 If you wish to work on your element in isolation, we recommend that you use
