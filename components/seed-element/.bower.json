@@ -1,0 +1,38 @@
+{
+  "name": "seed-element",
+  "authors": [
+    "Anonymous <anonymous@example.com>"
+  ],
+  "description": "An element providing a solution to no problem in particular.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "seed"
+  ],
+  "main": "seed-element.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/demo/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.9.3"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#~0.9.3",
+    "web-component-tester": "*"
+  },
+  "_release": "019a259d96",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "019a259d961a221d88cab2af4d4cc7b54fcc61d2"
+  },
+  "_source": "git://github.com/PolymerLabs/seed-element.git",
+  "_target": "master",
+  "_originalSource": "PolymerLabs/seed-element",
+  "_direct": true
+}
