@@ -12,7 +12,7 @@
     "seed"
   ],
   "main": "seed-element.html",
-  "license": "MIT",
+  "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/<USERNAME>/seed-element/",
   "ignore": [
     "/.*",
