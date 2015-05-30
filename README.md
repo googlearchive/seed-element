@@ -3,11 +3,6 @@
 An element providing a starting point for your own reusable Polymer elements.
 
 
-## Getting Started
-
-We've put together a [guide to seed-element](http://www.polymer-project.org/docs/start/reusableelements.html) to help get you rolling.
-
-
 ## Dependencies
 
 Element dependencies are managed via [Bower](http://bower.io/). You can
@@ -32,9 +27,8 @@ And you can run it via:
 
     polyserve
 
-Once running, you can view your element's files under
-`http://localhost:8080/components/seed-element/`, where `seed-element` is the
-name of the directory containing it.
+Once running, you can preview your element at
+`http://localhost:8080/components/seed-element/`, where `seed-element` is the name of the directory containing it.
 
 
 ## Testing Your Element
