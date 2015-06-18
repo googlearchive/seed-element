@@ -14,9 +14,7 @@
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/<USERNAME>/seed-element/",
   "ignore": [
-    "/.*",
-    "/test/",
-    "/demo/"
+    "/.*"
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#^1.0.0"
