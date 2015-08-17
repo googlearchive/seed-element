@@ -28,12 +28,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </seed-element>
 
     <script>
+      var seedElement = document.querySelector('seed-element');
+      
       document.querySelector('#saybtn').addEventListener('click', function() {
-        alert(document.querySelector('seed-element').sayHello('Hallo!'));
+        alert(seedElement.sayHello('Hallo!'));
       });
       
       document.querySelector('#laserbtn').addEventListener('click', function() {
-        document.querySelector('seed-element').fireLasers();
+        seedElement.fireLasers();
       });
       
       document.addEventListener("seed-element-lasers", function(e) {
