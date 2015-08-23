@@ -20,16 +20,28 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     <p>An example of <code>&lt;seed-element&gt;</code>:</p>
 
-    <button>Say Something</button>
+    <p>Make words! <button id="saybtn">Say Something</button></p>
+    <p>Make lasers! <button id="laserbtn">Fire lasers</button></p>
 
     <seed-element author='{"name": "Lord Meowser", "image": "http://placekitten.com/g/200/300"}' fancy>
       <h2>Hello seed-element</h2>
     </seed-element>
 
     <script>
-      document.querySelector('button').addEventListener('click', function() {
-        alert(document.querySelector('seed-element').sayHello('Hallo!'));
+      var seedElement = document.querySelector('seed-element');
+      
+      document.querySelector('#saybtn').addEventListener('click', function() {
+        alert(seedElement.sayHello('Hallo!'));
       });
+      
+      document.querySelector('#laserbtn').addEventListener('click', function() {
+        seedElement.fireLasers();
+      });
+      
+      document.addEventListener("seed-element-lasers", function(e) {
+        console.log(e.detail.sound);
+      });
+      
     </script>
 
   </body>
