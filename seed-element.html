@@ -116,13 +116,6 @@ Example:
       // Element Behavior
 
       /**
-       * The `seed-element-lasers` event is fired whenever `fireLasers` is called.
-       *
-       * @event seed-element-lasers
-       * @detail {{sound: String}}
-       */
-
-      /**
        * Sometimes it's just nice to say hi.
        *
        * @param {string} greeting A positive greeting.
@@ -132,6 +125,13 @@ Example:
         var response = greeting || 'Hello World!';
         return 'seed-element says, ' + response;
       },
+
+      /**
+       * The `seed-element-lasers` event is fired whenever `fireLasers` is called.
+       *
+       * @event seed-element-lasers
+       * @detail {{sound: String}}
+       */
 
       /**
        * Attempt to destroy this element's enemies with a beam of light!
