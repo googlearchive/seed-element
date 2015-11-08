@@ -13,7 +13,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
     <title>seed-element Demo</title>
-    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../../webcomponentsjs/webcomponents-lite.min.js"></script>
     <link rel="import" href="../seed-element.html">
   </head>
   <body unresolved>
@@ -29,19 +29,19 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     <script>
       var seedElement = document.querySelector('seed-element');
-      
+
       document.querySelector('#saybtn').addEventListener('click', function() {
         alert(seedElement.sayHello('Hallo!'));
       });
-      
+
       document.querySelector('#laserbtn').addEventListener('click', function() {
         seedElement.fireLasers();
       });
-      
+
       document.addEventListener("seed-element-lasers", function(e) {
         console.log(e.detail.sound);
       });
-      
+
     </script>
 
   </body>

@@ -22,7 +22,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <body>
 
     <!-- You can use the document as a place to set up your fixtures. -->
-    <seed-element></seed-element>
+    <seed-element>
+      <h2>seed-element</h2>
+    </seed-element>
 
     <script>
       var myEl = document.querySelector('seed-element');
@@ -47,6 +49,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             done();
           });
           myEl.fireLasers();
+        });
+
+        test('distributed children', function() {
+          var els = myEl.getContentChildren();
+          assert.equal(els.length, 1, 'one distributed node');
+          assert.equal(els[0], myEl.querySelector('h2'), 'content distributed correctly');
         });
 
       });
