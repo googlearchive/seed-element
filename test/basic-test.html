@@ -22,14 +22,22 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <body>
 
     <!-- You can use the document as a place to set up your fixtures. -->
-    <seed-element>
-      <h2>seed-element</h2>
-    </seed-element>
+    <test-fixture id="seed-element-fixture">
+      <template>
+        <seed-element>
+          <h2>seed-element</h2>
+        </seed-element>
+      </template>
+    </test-fixture>
 
     <script>
-      var myEl = document.querySelector('seed-element');
-
       suite('<seed-element>', function() {
+
+        var myEl;
+
+        setup(function() {
+          myEl = fixture('seed-element-fixture');
+        });
 
         test('defines the "author" property', function() {
           assert.equal(myEl.author.name, 'Dimitri Glazkov');
