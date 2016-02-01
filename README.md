@@ -15,6 +15,26 @@ Then, go ahead and download the element's dependencies:
     bower install
 
 
+## Linting Your Element
+
+If you wish to lint your element, we recommend that you use
+[Polylint](https://github.com/PolymerLabs/polylint) to take into account Polymer 
+linting specificities. You can install it via:
+
+    npm install -g polylint
+
+And you can run it via:
+
+	polylint -i seed-element.html
+
+If your element contains errors, they will appear on the console.
+
+Note that it is possible to use `Polylint` with Atom and Sublime with the appropriate package/plugin.
+
+For more options regarding `polylint`, please refer to the 
+[documentation](https://github.com/PolymerLabs/polylint#polylint).
+
+
 ## Playing With Your Element
 
 If you wish to work on your element in isolation, we recommend that you use
